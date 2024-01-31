@@ -43,7 +43,7 @@ This proposal adds the ability into the Swift language to express the first part
 Concretely, the proposal is to add a new attribute `@linkage` with arguments that will allow annotating functions and global variables with desired low-level symbol settings (custom section, no-dead-stripping aka "attribute used"), and can be easily extended in the future, e.g. to add control over symbol visibility, alignment, exact linker-level symbol name, and more — see the Future Directions section for details.
 
 ```swift
-// place entry into a section, mark as "do not dead strip", no visible symbol name
+// place entry into a section, mark as "do not dead strip"
 // also implicitly make the global guaranteed to be statically initialized
 @linkage(section: "__DATA,mysection", used)
 let myLinkerSetEntry: Int = 42
