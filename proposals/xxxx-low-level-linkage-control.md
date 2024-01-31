@@ -4,7 +4,7 @@
 * Status: Pitch #2
 * Discussion threads:
   * Pitch #1: https://forums.swift.org/t/pitch-low-level-linkage-control-attributes-used-and-section/65877
-  * Pitch #2: ...
+  * Pitch #2: https://forums.swift.org/t/pitch-2-low-level-linkage-control/69752
 
 ## Introduction
 
